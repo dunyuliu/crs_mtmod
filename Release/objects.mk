@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -L/usr/local/lib
+LIBS := -L/usr/local/lib -L${gsl_lib}
 
