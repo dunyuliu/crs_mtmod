@@ -7,11 +7,12 @@ ForecastStartDate=2019-07-06T03:10:00Z
 ForecastEndDate=2020-07-06T03:10:00Z
 #
 #Paths to input files.
-InputListSlipModels=input/slipmods.txt
-InputModelParametersFile=input/params.txt
-ForecastTemplate=input/grid.dat
+InputListSlipModels=test/slipmods.txt
+InputModelParametersFile=test/params.txt
+ForecastTemplate=test/grid.dat
 #Optional output paths
 #OutputForecastFile: Path to output files (without extension). If not given, it will be set to "output".
 #Logfile: Path to the log file. If not given, there will be no log file.
 #Logfile=output.log
 #OutputForecastFile=output
+OutputForecastFile=test/output

@@ -18,4 +18,4 @@
 1
 fsp	0	
 2019-07-06T03:19:00Z	7.1	1
-0 input/s2019RIDGEC02JINx.fsp
+0 test/s2019RIDGEC02JINx.fsp
