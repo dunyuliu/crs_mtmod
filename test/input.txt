@@ -2,9 +2,9 @@
 #----------------------------------------------------------------------------#
 #IssueDate (format: YYYY-MM-DDTHH:MM:SSZ). This represents the time at which a forecast is supposedly produced: only stress sources up to this time are included. It can be the actual date of a prospective experiment, or a past date for a pseudo-prospective one.
 #ForecastStartDate, ForecastEndDate. Start and end time of the forecast.   
-IssueDate=2019-07-06T03:10:00Z
-ForecastStartDate=2019-07-06T03:10:00Z
-ForecastEndDate=2020-07-06T03:10:00Z
+IssueDate=2019-07-06T03:19:53Z
+ForecastStartDate=2019-07-06T17:15:24Z
+ForecastEndDate=2020-07-06T17:15:24Z
 #
 #Paths to input files.
 InputListSlipModels=test/slipmods.txt
