@@ -31,7 +31,7 @@ C_DEPS += \
 code/src/nr/%.o: $(numrec_path)/recipes/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
-	gcc -I$(numrec_path)/recipes -I$(numrec_path)/other -I${gsl_include} -O3 -c -fmessage-length=0 -std=c99 -fopenmp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	gcc -I$(numrec_path)/recipes -I$(numrec_path)/other -I${gsl_include} -O3 -c -fmessage-length=0 -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
